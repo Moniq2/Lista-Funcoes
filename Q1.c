@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "parImpar.h"
+#include "momiq.h"
 int main() {
     int n1;
-    printf("Digite um numero");
+    printf("Digite um numero:\n");
     scanf("%d", &n1);
     int result = parImpar(n1);
     if (result == 1)
